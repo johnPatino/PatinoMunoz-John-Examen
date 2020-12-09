@@ -71,8 +71,9 @@
                echo ' <tr>
                     <td colspan="5" class="textright">Total  </td>
                     <td class="textright"> '. $total .' </td></tr> ';
-                    print_r($_SESSION["carrito"]); 
+                     //print_t($_SESSION["carrito"])
             ?>
+            
             </tfoot>
         </table>
 

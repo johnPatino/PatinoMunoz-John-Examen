@@ -6,7 +6,7 @@ include '../config/conexionDB.php';
 
 if ($_GET != '') {
     $total=$_GET['cantidad']*$_GET['precio'];
-    echo "$ $total";
+    echo "$total";
     $conn->close();
 } else {
 

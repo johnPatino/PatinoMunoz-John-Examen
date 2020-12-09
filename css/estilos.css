@@ -135,7 +135,7 @@ nav .principal > a{
     background-position: 94% center;
     background-size: 10px;
 }
-nav ul li:hover ul{
+nav ul li:hover ul{/* espara hacer el menu desplegable*/
 	display: block;
 }
 nav li ul{

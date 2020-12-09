@@ -15,7 +15,7 @@ if ($_GET != '') {
                 echo "<input type='hidden' name='txtNombre' value='".$row["nombre"] ."'>";
                 echo "<input type='hidden' name='txtPrecio' value='".$row["precio"]."'>";
                 echo '<input type="text" name="txt_cant_producto" id="txt_cant_producto" value="1" min="1" disables onkeyup=calcularSubtotal(this,'. $row["precio"] .');>';
-                echo "<button class='btng' type='submit' name='btnAnadir' value='Añadir'> Agregar Pedido";
+                echo "<button  type='submit' name='btnAnadir' value='Añadir'> Agregar Pedido";
             echo "</form>";
             echo "</td>";
         }

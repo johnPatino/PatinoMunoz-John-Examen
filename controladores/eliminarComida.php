@@ -9,10 +9,7 @@ if(isset($_SESSION["carrito"])){
 
     $_SESSION["carrito"] = $carrito;
 
-    if(count($carrito) == 0){
-        session_unset($carrito);
-    }
-}
 header("location: ../vista/generar_pedido.php");
+}
 ?>
 

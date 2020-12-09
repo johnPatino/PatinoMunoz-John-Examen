@@ -4,10 +4,6 @@ $nombre = $_POST["txtNombre"];
 $precio = $_POST["txtPrecio"];
 $id = $_POST["txtId"];
 
-echo $cantidad;
-echo $nombre;
-echo $precio;
-
 session_start();
 if(isset($_SESSION["carrito"])){
     $carrito = $_SESSION["carrito"];
